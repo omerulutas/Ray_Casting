@@ -16,7 +16,7 @@ class Driver:
         group = file_reader.group_factory()
         hit = Hit(0, [0, 0, 0])
 
-        frame_size = (1024, 1024)
+        frame_size = (3072, 3072)
         image = Image.new('RGB', frame_size, color)
         image_depth = Image.new('RGB', frame_size, color)
 
